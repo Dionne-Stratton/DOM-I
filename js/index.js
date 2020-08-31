@@ -125,6 +125,10 @@ contactLabels[2].textContent = siteContent['contact']['email']
 let copyright = document.querySelector('footer p')
 copyright.textContent = siteContent['footer']['copyright']
 
+// stretch
 menuItems.forEach(item => item.style.color = 'teal')
 
-
+const h4Color = document.querySelectorAll("body h4")
+h4Color.forEach((headercolor) => {
+  headercolor.style.color = 'turquoise'
+})
